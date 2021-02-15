@@ -81,7 +81,7 @@ func getPerimeter(points []Point) float64 {
 	
 		if doIntersect(points[i], points[i+1], points[i+2], points[i+3]) == true {
 
-			fmt.Println("No valid perimeter")
+			fmt.Println("No valid perimeter input")
 			return 0
 		
 		}
